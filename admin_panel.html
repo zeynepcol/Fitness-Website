@@ -1,0 +1,127 @@
+{% extends "admin_layout.html" %}
+
+{% block main %}
+
+<h1>Admin Panel</h1>
+
+<!-- Display Private Lessons -->
+<div>
+    <h2>Private Lessons</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Lesson DateTime</th>
+                <th>Customer Name</th>
+                <th>Instructor Name</th>
+                <th>Activity Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for private_lesson in private_lessons %}
+            <tr>
+                <td>{{ private_lesson.LessonDateTime }}</td>
+                <td>{{ private_lesson.CustomerFirstName }} {{ private_lesson.CustomerLastName }}</td>
+                <td>{{ private_lesson.InstructorFirstName }} {{ private_lesson.InstructorLastName }}</td>
+                <td>{{ private_lesson.ActivityName }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Display Instructors -->
+<div>
+    <h2>Instructors</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>PhoneNumber</th>
+                <th>Email</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for instructor in instructors %}
+            <tr>
+                <td>{{ instructor.FirstName }}</td>
+                <td>{{ instructor.LastName }}</td>
+                <td>{{ instructor.PhoneNumber }}</td>
+                <td>{{ instructor.Email }}</td>
+                <td>{{ instructor.Gender }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Display Customers -->
+<div>
+    <h2>Customers</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>PhoneNumber</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>MembershipStartDate</th>
+                <th>MembershipEndDate</th>
+                <th>PaymentPlanID</th>
+                <th>ActivityID</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for customer in customers %}
+            <tr>
+                <td>{{ customer.FirstName }}</td>
+                <td>{{ customer.LastName }}</td>
+                <td>{{ customer.UserName }}</td>
+                <td>{{ customer.Email }}</td>
+                <td>{{ customer.PhoneNumber }}</td>
+                <td>{{ customer.Gender }}</td>
+                <td>{{ customer.Address }}</td>
+                <td>{{ customer.MembershipStartDate }}</td>
+                <td>{{ customer.MembershipEndDate }}</td>
+                <td>{{ customer.PaymentPlanID }}</td>
+                <td>{{ customer.ActivityID }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Display Activities -->
+<div>
+    <h2>Activities</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ActivityName</th>
+                <th>Description</th>
+                <th>InstructorID</th>
+                <th>ActivityDay</th>
+                <th>DetailedDescription</th>
+                <th>ActivityTime</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for activity in activities %}
+            <tr>
+                <td>{{ activity.ActivityName }}</td>
+                <td>{{ activity.Description }}</td>
+                <td>{{ activity.InstructorID }}</td>
+                <td>{{ activity.ActivityDay }}</td>
+                <td>{{ activity.DetailedDescription }}</td>
+                <td>{{ activity.ActivityTime }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
