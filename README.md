@@ -1,3 +1,8 @@
+Fitness Website Video
+https://github.com/user-attachments/assets/04a36486-82be-40fa-8883-6541a6623c47
+
+
+Fitness Website ScreenShots
 This how website Index page looks like:
 
 ![1](https://github.com/user-attachments/assets/be7a0fc4-1e7f-4c70-ae60-f9440789ea35)
