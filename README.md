@@ -2,7 +2,7 @@
 <h1 align="left">Full Stack + Database</h1>
 
 
-<h3 align="left">VIDEO</h3>
+<h3 align="center">VIDEO</h3>
 
 
 
