@@ -103,8 +103,6 @@ https://github.com/user-attachments/assets/1a52a7dd-c28f-48ec-8b2f-50a2c6613db1
 
   <hr>
 
-  <hr>
-
   <h2>CONTRIBUTING 🤝</h2>
 <p>Your contributions are always welcome and important to me! If you’d like to support the project or suggest improvements:</p>
   <ol>
