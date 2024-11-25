@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/1a52a7dd-c28f-48ec-8b2f-50a2c6613db1
 
   <hr>
 
-  <h2>Technologies Used 💻</h2>
+  <h2>TECH STACK 💻</h2>
   <ul>
     <li><strong>Frontend</strong>: HTML, CSS, JavaScript</li>
     <li><strong>Backend</strong>: Python (Flask Framework)</li>
@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/1a52a7dd-c28f-48ec-8b2f-50a2c6613db1
 
   <hr>
 
-  <h2>Setup Instructions ⚙️</h2>
+  <h2>SETUP INSTRUCTIONS ⚙️</h2>
   <ol>
     <li><strong>Clone the Repository</strong>:
       <pre><code>git clone https://github.com/zeynepcol/Fitness-Website.git</code></pre>
@@ -105,7 +105,7 @@ https://github.com/user-attachments/assets/1a52a7dd-c28f-48ec-8b2f-50a2c6613db1
 
   <hr>
 
-  <h2>Contributing 🤝</h2>
+  <h2>CONTRIBUTING 🤝</h2>
 <p>Your contributions are always welcome and important to me! If you’d like to support the project or suggest improvements:</p>
   <ol>
     <li>Fork the repository.</li>
