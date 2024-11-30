@@ -1,11 +1,8 @@
 {% extends "main_layout.html" %}
-
 {% block main %}
-<!--giriş-->
 <div class="section section-image section-login">
     <div class="container">
         <h2 class="title">Fitness Center</h2>
-
         <div class="row">
             <div class="col-lg-6 col-md-8 ml-auto mr-auto">
                 <div class="card card-login card-plain">
@@ -22,7 +19,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-4">
                 <div class="card card-plain">
@@ -37,7 +33,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <div class="card card-plain">
                     <div class="card-header">
@@ -51,7 +46,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <div class="card card-plain">
                     <div class="card-header">
@@ -67,7 +61,6 @@
             </div>
         </div>
         <br>
-
         <div class="row">
             <div class="col-md-6 ml-auto mr-auto">
                 <div class="card card-login card-plain">
@@ -80,7 +73,6 @@
     </div>
 </div>
 <br>
-<!-- Aktiviteler-->
 <div class="section">
     <div class="container">
         <h2 class="title">Activities</h2>
@@ -104,13 +96,7 @@
         {% endfor %}
     </div>
 </div>
-
-
-
 <br>
-
-
-<!-- Yorumlar -->
 <div class="section section-reviews" style="background-color: #ffffff8d; padding: 40px 0;">
     <div class="container">
         <h2 class="title text-center" style="font-weight: bold; color: #333; margin-bottom: 30px;">
@@ -151,15 +137,10 @@
         </div>
     </div>
 </div>
-
-
 <br>
-
-<!-- Location ve Contact Form Bölümü -->
 <div class="section section-contact" style="background-image: url('path/to/subtle/background.jpg');">
     <div class="container">
         <div class="row align-items-center">
-
             <div class="col-md-6 mb-4 mb-md-0">
                 <div class="card shadow-sm rounded-lg overflow-hidden">
                     <div class="card-header bg-dark text-white text-center">
@@ -176,7 +157,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-6">
                 <div class="card shadow-sm rounded-lg">
                     <div class="card-header bg-dark text-white text-center">
@@ -200,19 +180,16 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="form-group">
                                 <label for="email">Your Email:</label>
                                 <input type="email" class="form-control" id="email" name="email"
                                     placeholder="john.doe@example.com" required>
                             </div>
-
                             <div class="form-group mt-3">
                                 <label for="message">Your Message:</label>
                                 <textarea class="form-control" id="message" name="message" rows="5"
                                     placeholder="Your message here..." required></textarea>
                             </div>
-
                             <div class="text-center mt-4">
                                 <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
                             </div>
@@ -223,8 +200,6 @@
         </div>
     </div>
 </div>
-
-
 <br>
 <br>
 {% endblock %}
