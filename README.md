@@ -1,8 +1,4 @@
-<h1 align="center">Fitness Website</h1>
-<h1 align="left">Full Stack + Database</h1>
-
-
-<h3 align="center">VIDEO</h3>
+<h1 align="center">Full Stack Website - Fitness Website</h1>
 
 
 
